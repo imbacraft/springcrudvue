@@ -160,7 +160,7 @@ export default {
 
 /**
  * Create a new totally empty supplier
- * @returns {{id: null, name: string, mobilePhone: string, gender: null, email: string, comments: string, active: boolean}}
+ * @returns {{id: null, firstName: string, lastName: string, vatNumber: integer, email: string, comments: string, active: boolean}}
  */
 function initSupplier () {
   return {

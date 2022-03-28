@@ -25,7 +25,7 @@
             <el-input prefix-icon="fa fa-user"
                       v-model="supplier.firstName"
                       placeholder="Κύριο Όνομα"
-                      autoComplete="name">
+                      autoComplete="firstName">
             </el-input>
           </el-form-item>
 
@@ -34,7 +34,7 @@
             <el-input prefix-icon="fa fa-user"
                       v-model="supplier.lastName"
                       placeholder="Επίθετο"
-                      autoComplete="name">
+                      autoComplete="lastName">
             </el-input>
           </el-form-item>
 
@@ -43,7 +43,7 @@
             <el-input prefix-icon="fa fa-phone"
                       v-model="supplier.vatNumber"
                       placeholder="ΑΦΜ"
-                      autoComplete="VatNumber">
+                      autoComplete="vatNumber">
             </el-input>
           </el-form-item>
 
@@ -51,7 +51,7 @@
                         prop="irsOffice">
             <el-input prefix-icon="fa fa-phone"
                       v-model="supplier.irsOffice"
-                      placeholder="IrsOffice"
+                      placeholder="ΔΟΥ"
                       autoComplete="irsOffice">
             </el-input>
           </el-form-item>
@@ -61,7 +61,7 @@
             <el-input prefix-icon="fa fa-envelope"
                       v-model="supplier.address"
                       type="address"
-                      placeholder="Address"
+                      placeholder="Διεύθυνση"
                       autoComplete="address">
             </el-input>
           </el-form-item>
@@ -71,7 +71,7 @@
             <el-input prefix-icon="fa fa-envelope"
                       v-model="supplier.zipCode"
                       type="zipCode"
-                      placeholder="zipCode"
+                      placeholder="Ταχυδρομικός Κώδικας"
                       autoComplete="zipCode">
             </el-input>
           </el-form-item>
@@ -81,7 +81,7 @@
             <el-input prefix-icon="fa fa-envelope"
                       v-model="supplier.city"
                       type="city"
-                      placeholder="city"
+                      placeholder="Πόλη"
                       autoComplete="city">
             </el-input>
           </el-form-item>
@@ -91,7 +91,7 @@
             <el-input prefix-icon="fa fa-envelope"
                       v-model="supplier.country"
                       type="country"
-                      placeholder="country"
+                      placeholder="Χώρα"
                       autoComplete="country">
             </el-input>
           </el-form-item>

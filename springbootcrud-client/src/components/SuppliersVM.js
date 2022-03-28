@@ -26,7 +26,7 @@ export default {
     return {
       url: 'suppliers/search/findByQuery?query=',
       query: '',
-      Suppliers: [],
+      suppliers: [],
       fields: [
         {
           name: 'id',
@@ -103,7 +103,7 @@ export default {
     refreshSuppliers () {
       this.$http.get(this.url + this.query)
         .then(response => {
-          this.Suppliers = response.data._embedded.Suppliers
+          this.suppliers = response.data._embedded.suppliers
         })
         .catch(e => {
           console.log('error: ')
