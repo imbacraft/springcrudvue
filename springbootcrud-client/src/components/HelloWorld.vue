@@ -9,7 +9,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to a simple Vue.js App'
+      msg: 'Welcome to a simple Persons and Suppliers CRUD app.'
     }
   }
 }
