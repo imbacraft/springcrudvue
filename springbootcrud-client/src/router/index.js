@@ -4,7 +4,7 @@ import Router from 'vue-router'
 // Containers
 // import Full from '@/containers/Full'
 import Dashboard from '@/containers/Dashboard'
-import HelloWorld from '@/components/HelloWorld'
+import Home from '@/components/Home'
 import Persons from '@/components/Persons'
 import Suppliers from '@/components/Suppliers'
 
@@ -17,14 +17,14 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: '/HelloWorld',
+      redirect: '/home',
       name: 'Dashboard',
       component: Dashboard,
       children: [
         {
-          path: 'HelloWorld',
-          name: 'HelloWorld',
-          component: HelloWorld
+          path: 'home',
+          name: 'home',
+          component: Home
         },
         {
           path: 'persons',

@@ -145,8 +145,8 @@ export default {
       })
     },
     transformRequest (data) {
-      if (data.mobilePhone === '') {
-        delete data.mobilePhone
+      if (data.companyName === '') {
+        delete data.companyName
       }
       return JSON.stringify(data)
     },

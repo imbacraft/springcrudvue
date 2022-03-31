@@ -1,8 +1,8 @@
 export default {
   items: [
     {
-      name: 'HelloWorld',
-      url: '/HelloWorld',
+      name: 'Home',
+      url: '/home',
       icon: 'icon-calendar'
     },
     {

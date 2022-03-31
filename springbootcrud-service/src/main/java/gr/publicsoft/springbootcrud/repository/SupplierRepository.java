@@ -21,6 +21,7 @@ public interface SupplierRepository extends JpaRepository<Supplier, Long> {
 Page<Supplier> findByQuery(@Param("query") String query, Pageable pageable);
 
 List<Supplier> findByCompanyName(String companyName);
+
 List<Supplier> findByVatNumber(String vatNumber);
 
 }

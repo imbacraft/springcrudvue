@@ -60,4 +60,5 @@
     <supplier></supplier>
   </div>
 </template>
+
 <script src="./SuppliersVM.js"></script>
